@@ -47,7 +47,7 @@ body {
 
 
 header#header {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     height: calc(3vh + 3vw);
     z-index: 2;
 }
@@ -111,7 +111,7 @@ ul.header__main-nav--links li a:active::after {
 section#showcase {
     height: 100vh;
     /* background: var(--tertiary-color-m); */
-    background: url('/src/components/mark.jpg');
+    /* background-image: url('/src/components/mark.jpg'); */
     background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -121,7 +121,7 @@ section#showcase {
 }
 
 div#showcase__content {
-    background: var(--secondary-color-m);
+    background: var(--secondary-color);
     padding: calc(1rem + 2vw);
     height: calc(5rem + 20vmax);
     display: flex;
@@ -174,7 +174,7 @@ div#showcase__content {
     left: 0;
     height: 100%;
     width: 100%;
-    background: var(--primary-color);
+    background: var(--tertiary-color);
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.45s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -352,7 +352,7 @@ section#works {
     left: 0;
     width: 80%;
     padding: 1.5rem;
-    background-color: var(--tertiary-color-m);
+    background-color: var(--tertiary-color);
     transform: scaleY(0);
     transform-origin: top;
     transition: transform 0.45s ease-in-out;
